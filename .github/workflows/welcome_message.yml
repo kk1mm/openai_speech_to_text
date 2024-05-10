@@ -1,0 +1,13 @@
+name: Welcome Message
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Display Welcome Message
+        run: echo "Hello and welcome to our repository! Thank you for joining us."
