@@ -21,3 +21,6 @@ async def save_voice_as_mp3(bot: Bot, voice: Voice) -> str:
         voice_mp3_path, format="mp3"
     )
     return voice_mp3_path
+
+def temp_func(value:str)->str:
+    return value
