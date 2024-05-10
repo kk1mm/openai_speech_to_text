@@ -1,6 +1,6 @@
 import logging
 
-from AI_TOKEN import BOT_TOKEN
+from AI_TOKEN import BOT_TOKEN, TOKEN1
 import asyncio
 import io
 
@@ -11,7 +11,7 @@ from pydub import AudioSegment
 
 import assemblyai as aai
 
-aai.settings.api_key = "7b34956ed6134014b7467c979962f2cf"
+aai.settings.api_key = TOKEN1
 
 router: Router = Router()
 logging.basicConfig(level=logging.INFO)
