@@ -18,7 +18,7 @@ logging.basicConfig(level=logging.INFO)
 config = aai.TranscriptionConfig(language_code="uk", dual_channel=True)
 transcriber = aai.Transcriber(config=config)
 
-MALYSHKA = []
+MALYSHKA = [1]
 async def audio_to_text(file_path: str) -> str:
     """Принимает путь к аудио файлу, возвращает текст файла."""
 
