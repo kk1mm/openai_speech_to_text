@@ -40,7 +40,7 @@ async def save_voice_as_mp3(bot: Bot, voice: Voice) -> str:
         voice_mp3_path, format="mp3"
     )
     return voice_mp3_path
-#qwe
+
 @router.message(F.content_type == "voice")
 async def process_voice_message(message: Message, bot: Bot):
     """Принимает все голосовые сообщения и транскрибирует их в текст."""
